@@ -11,21 +11,14 @@ Accurate answers and instant citations for your documents.
 
 ## 💻 Running Locally
 
-1. Clone the repository📂
-
-```bash
-git clone https://github.com/mmz-001/knowledge_gpt
-cd knowledge_gpt
-```
-
-2. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
+1. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
 
 ```bash
 poetry install
 poetry shell
 ```
 
-3. Run the Streamlit server🚀
+2. Run the Streamlit server🚀
 
 ```bash
 cd question-answering
