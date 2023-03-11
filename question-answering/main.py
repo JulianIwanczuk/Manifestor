@@ -1,7 +1,8 @@
 import streamlit as st
-from components.sidebar import sidebar
 from openai.error import OpenAIError
-from utils import (
+
+from knowledge_gpt.components.sidebar import sidebar
+from knowledge_gpt.utils import (
     embed_docs,
     get_answer,
     get_sources,
@@ -18,7 +19,8 @@ def clear_submit():
     st.session_state["submit"] = False
 
 
-st.header("📖Manifestor AI")
+st.set_page_config(page_title="KnowledgeGPT", page_icon="📖", layout="wide")
+st.header("📖KnowledgeGPT")
 
 sidebar()
 
