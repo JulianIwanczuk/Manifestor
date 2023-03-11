@@ -1,5 +1,5 @@
 <h1 align="center">
-📖KnowledgeGPT
+📖Manifestor AI
 </h1>
 
 Accurate answers and instant citations for your documents.
@@ -28,7 +28,7 @@ poetry shell
 3. Run the Streamlit server🚀
 
 ```bash
-cd knowledge_gpt
+cd question-answering
 streamlit run main.py
 ```
 
